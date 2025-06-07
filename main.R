@@ -7,7 +7,7 @@ pacman::p_load(
 )
 
 # 2) DOWNLOAD ERA5 WIND DATA
-my_key <- "1892f092-9849-4d81-991e-616a0ab0c73e" # PLEASE REGISTER AT CLIMATE DATA STORE (CDS) AND INSERT YOUR API KEY
+my_key <- "****************" # PLEASE REGISTER AT CLIMATE DATA STORE (CDS) AND INSERT YOUR API KEY
 
 ecmwfr::wf_set_key(key = my_key)
 
